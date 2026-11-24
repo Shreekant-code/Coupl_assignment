@@ -38,8 +38,27 @@ local.properties
 # node.js
 #
 node_modules/
-npm-debug.log
-yarn-error.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# React Native / Expo generated files
+.expo/
+.expo-shared/
+web-build/
+dist/
+/android/app/src/main/assets/index.android.bundle
+
+# Local environment secrets and overrides
+.env
+.env.*
+!.env.example
+
+# Windows
+Thumbs.db
 
 # fastlane
 #
